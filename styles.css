@@ -3,10 +3,26 @@ body {
   font-family: "Myriad Pro Regular", Arial, Verdana, sans-serif;
   font-size: 18px; }
 
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff; }
+
+h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #524741;
+  text-align: center; }
+
+h3 {
+  font-size: 36px;
+  color: #86765d; }
+
 #header {
   text-align: center; }
   #header .logo {
-    margin-top: 15px; }
+    padding-top: 65px; }
   #header ul {
     list-style-type: none;
     padding: 40px 0 24px 0;
@@ -29,17 +45,26 @@ body {
   min-height: 650px;
   display: table; }
   #welcome .welcometxt {
-    color: #fff;
     text-align: center;
     display: table-cell;
     vertical-align: middle; }
-  #welcome h1 {
-    font-size: 64px;
-    font-weight: bold;
-    text-transform: uppercase; }
   #welcome h2 {
-    font-size: 48px;
-    font-family: "Kepler Std Semicondensed Display";
-    font-style: italic; }
+    font-family: "Kepler Std Semicondensed Display", Georgia, serif;
+    font-style: italic;
+    text-transform: none;
+    color: #fff; }
+
+#about {
+  margin: 0 auto;
+  width: 1000px; }
+  #about .aboutus {
+    display: inline-block;
+    padding-right: 38px;
+    width: 510px; }
+    #about .aboutus p {
+      color: #524741; }
+  #about img {
+    float: right;
+    width: 420px; }
 
 /*# sourceMappingURL=styles.css.map */

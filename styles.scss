@@ -4,10 +4,29 @@ body {
   font-size: 18px;
 }
 
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #524741;
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  color: #86765d;
+}
+
 #header {
   text-align: center;
   .logo {
-    margin-top: 15px;
+    padding-top: 65px;
   }
   ul {
     list-style-type: none;
@@ -37,19 +56,31 @@ body {
   min-height: 650px;
   display: table;
   .welcometxt {
-    color: #fff;
     text-align: center;
     display: table-cell;
     vertical-align: middle;
   }
-  h1 {
-    font-size: 64px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
   h2 {
-    font-size: 48px;
-    font-family: "Kepler Std Semicondensed Display";
+    font-family: "Kepler Std Semicondensed Display", Georgia, serif;
     font-style: italic;
+    text-transform: none;
+    color: #fff;
+  }
+}
+
+#about {
+  margin: 0 auto;
+  width: 1000px;
+  .aboutus {
+    display: inline-block;
+    padding-right: 38px;
+    width: 510px;
+    p {
+      color: #524741;
+    }
+  }
+  img {
+    float: right;
+    width: 420px;
   }
 }
