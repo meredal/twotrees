@@ -1,3 +1,55 @@
 body {
   background: #fff;
+  font-family: "Myriad Pro Regular", Arial, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+#header {
+  text-align: center;
+  .logo {
+    margin-top: 15px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 40px 0 24px 0;
+    margin: 0;
+  }
+  li {
+    display: inline-block;
+    a {
+      color: #5c856c;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px;
+
+      &:hover {
+        color: #fff;
+        background-color: #b88b4d;
+      }
+    }
+  }
+}
+
+#welcome {
+  background: url(./img/welcome.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 650px;
+  display: table;
+  .welcometxt {
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  h1 {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 48px;
+    font-family: "Kepler Std Semicondensed Display";
+    font-style: italic;
+  }
 }

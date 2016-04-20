@@ -6,24 +6,28 @@
     <title>My First Buildout</title>
     <link rel="stylesheet" href="/styles.css">
   </head>
+
   <body>
-    <header class="header">
-      <img src="/img/two-trees-logo.png" alt="Logo" />
+    <header id="header">
+      <a href="/" class="logo">
+        <img src="/img/two-trees-logo.png" alt="Logo" />
+      </a>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li class="navlinks"><a href="#">Home</a></li>
+          <li class="navlinks"><a href="#about">About</a></li>
+          <li class="navlinks"><a href="#">Portfolio</a></li>
+          <li class="navlinks"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section class="welcome">
-      <img src="/img/welcome.jpg" alt="Welcome Image" />
-      <h1>Designing Your World</h1>
-      <h2>One pixel at a time.</h2>
+    <section id="welcome">
+      <div class="welcometxt">
+        <h1>Designing Your World</h1>
+        <h2>One pixel at a time.</h2>        
+      </div>
     </section>
-    <section class="about">
+    <section id="about">
       <h1>About Us</h1>
       <p>
         Two Trees Creative is a full-service graphic design agency based in Ventura, CA. Our goal is to provide elegant work and unsurpassed customer service to our clients in every way.
