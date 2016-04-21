@@ -169,4 +169,24 @@ h3 {
   }
 }
 
+#footer {
+  margin: 0 auto;
+  width: 1000px;
+  padding-top: 40px;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    display: inline-block;
+    padding-right: 18px;
+  }
+  .backtotop {
+    display: inline-block;
+    width: 100px;
+    float: right;
+    color: #524741;
+    text-decoration: none;
+  }
 }
