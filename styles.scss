@@ -109,3 +109,64 @@ h3 {
     padding: 25px 10px 50px 10px;
   }
 }
+
+#contact {
+  margin: 0 auto;
+  width: 1000px;
+  img {
+    width: 575px;
+    height: 550px;
+  }
+
+  .form {
+    width: 410px;
+    height: 550px;
+    float: right;
+    text-align: right;
+    input {
+      border: none;
+      font-family: inherit;
+      font-size: 100%;
+      background-color: #ebebeb;
+      color: #000;
+      display: inline-block;
+      &[type=email], &[type=text], &[type=textarea] {
+        width: 405px;
+        margin-bottom: 11px;
+      }
+      &[type=email], &[type=text] {
+        height: 75px;
+      }
+      &[type=textarea] {
+        height: 150px;
+      }
+      &[type=submit] {
+        width: 150px;
+        height: 75px;
+        background-color: #5c856c;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+
+    ::-webkit-input-placeholder {
+       color: #000;
+       padding-left: 11px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+       color: #000;
+       padding-left: 11px;
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: #000;
+       padding-left: 11px;
+    }
+    :-ms-input-placeholder {
+       color: #000;
+       padding-left: 11px;
+    }
+
+  }
+}
+
+}
