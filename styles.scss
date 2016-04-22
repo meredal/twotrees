@@ -182,11 +182,13 @@ h3 {
     display: inline-block;
     padding-right: 18px;
   }
-  .backtotop {
-    display: inline-block;
-    width: 100px;
+  .top {
     float: right;
-    color: #524741;
-    text-decoration: none;
+    &.linktotop {
+      display: inline-block;
+      width: 100px;
+      color: #524741;
+      text-decoration: none;
+    }
   }
 }

@@ -143,11 +143,12 @@ h3 {
   #footer li {
     display: inline-block;
     padding-right: 18px; }
-  #footer .backtotop {
-    display: inline-block;
-    width: 100px;
-    float: right;
-    color: #524741;
-    text-decoration: none; }
+  #footer .top {
+    float: right; }
+    #footer .top.linktotop {
+      display: inline-block;
+      width: 100px;
+      color: #524741;
+      text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
